@@ -1,1 +1,1 @@
-web: node server.js --trace-deprecation
+web: node server.js

@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "meli_test": "jest --no-cache",
-    "meli_dev": "node server.js --trace-deprecation",
+    "meli_dev": "node server.js",
     "meli_build": "webpack --config webpack.prod.config.js",
     "meli_start": "node NODE_ENV=production node server.js"
   },
@@ -18,11 +18,8 @@
     }
   },
   "dependencies": {
-    "axios": "^0.19.0",
     "babel-loader": "^7.1.5",
     "babel-polyfill": "^6.26.0",
-    "compression": "^1.7.1",
-    "express": "^4.16.2",
     "history": "^4.7.2",
     "jsdom": "^15.1.1",
     "prop-types": "^15.6.0",
@@ -35,9 +32,14 @@
     "react-router-dom": "^4.2.2",
     "react-router-redux": "^5.0.0-alpha.9",
     "redux": "^3.7.2",
-    "redux-thunk": "^2.2.0"
-  },
-  "devDependencies": {
+    "redux-thunk": "^2.2.0",
+    "axios": "^0.19.0",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "webpack": "^3.1.0",
+    "webpack-dev-middleware": "^3.7.2",
+    "webpack-hot-middleware": "^2.25.0",
     "@babel/core": "^7.5.5",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
     "@babel/plugin-transform-runtime": "^7.5.5",
@@ -67,8 +69,9 @@
     "sass-loader": "^6.0.6",
     "style-loader": "^0.19.1",
     "uglifyjs-webpack-plugin": "^1.1.6",
-    "webpack": "^3.1.0",
+    "webpack": "^3.10.0",
     "webpack-dev-middleware": "^2.0.4",
     "webpack-hot-middleware": "^2.21.0"
-  }
+  },
+  "devDependencies": {}
 }
