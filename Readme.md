@@ -24,7 +24,7 @@ Ejecutar Tests
 $ npm run meli_test
 ```
 
-Dev
+Iniciar entorno Dev
 
 ```
 $ npm run meli_dev
