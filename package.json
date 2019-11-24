@@ -9,12 +9,6 @@
     "meli_build": "webpack --config webpack.prod.config.js",
     "meli_start": "node NODE_ENV=production node server.js"
   },
-  "keywords": [
-    "frontend",
-    "mercadolibre",
-    "meli",
-    "test"
-  ],
   "author": "Bravo Jeremy",
   "license": "MIT",
   "repository": "https://github.com/jerebravo/jb_meli.git",
