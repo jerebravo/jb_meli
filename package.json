@@ -5,9 +5,7 @@
   "main": "server.js",
   "scripts": {
     "meli_test": "jest --no-cache",
-    "meli_dev": "node server.js",
-    "meli_build": "webpack --config webpack.prod.config.js",
-    "meli_start": "node NODE_ENV=production node server.js"
+    "meli_dev": "node server.js"
   },
   "author": "Bravo Jeremy",
   "license": "MIT",
