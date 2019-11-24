@@ -1,7 +1,7 @@
 {
-  "name": "mercadolibre-test-frontend",
+  "name": "jb_meli",
   "version": "1.0.0",
-  "description": "Test Frontend para MercadoLibre",
+  "description": "Frontend para MercadoLibre",
   "main": "server.js",
   "scripts": {
     "meli_test": "jest --no-cache",
@@ -17,7 +17,7 @@
   ],
   "author": "Jeremy Bravo",
   "license": "MIT",
-  "repository": "https://github.com/jeremybravo/meli_frontend.git",
+  "repository": "https://github.com/jerebravo/jb_meli.git",
   "jest": {
     "transform": {
       "^.+\\.jsx?$": "babel-jest"

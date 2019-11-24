@@ -1,19 +1,14 @@
-# Test Frontend para MercadoLibre
-
-Demo: https://mercadolibre-frontend-test-ujmrmymcsg.now.sh
 
 ### Stack Elegido
 
 * Node.js
 * Express
 * React.js
-* Redux v5
+* Redux
 * React Router
 * Webpack
 * Sass
 * Jest (Testing)
-
-> Decidi no utilizar ningún project starter para hacer un proyecto desde cero.
 
 ### Comandos
 
@@ -26,17 +21,11 @@ $ npm install
 Ejecutar Tests
 
 ```
-$ npm run test
+$ npm run meli_test
 ```
 
 Dev
 
 ```
-$ npm run dev
-```
-
-Production
-
-```
-$ npm run start
+$ npm run meli_dev
 ```
