@@ -5,7 +5,7 @@ const Breadcrumb = ({ categories }) => {
     <div className="breadcrumb-container" role="categories">
       {categories.length ? (
         <ol>
-          {categories.map((category, index) => <li key={index}>{category}</li>)}
+          {categories.map((category, index) => <li style={{cursor:"pointer"}} key={index}>{category}</li>)}
         </ol>
       ) : (
         <span>Categorias</span>

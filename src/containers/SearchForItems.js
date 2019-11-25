@@ -22,7 +22,9 @@ let SearchForItems = ({ dispatch }) => {
           input = node
         }}
       />
-      <button className="nav-search-btn" aria-label="buscar">
+      <button className="nav-search-btn"
+        aria-label="buscar"
+        style={{cursor:"pointer"}}>
         <i className="nav-icon-search">
           <span>buscar</span>
         </i>
