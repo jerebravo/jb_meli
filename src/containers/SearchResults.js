@@ -26,7 +26,13 @@ class SearchResults extends Component {
     return (
       <section className="results-section">
         {isFetchingData ? (
-          <MDSpinner singleColor="#999999" />
+          <MDSpinner singleColor="#999999"
+            style={{
+              width:"50px",
+              height:"50px",
+              left: "50%",
+              marginLeft: "-25px"
+            }} />
         ) : (
           <React.Fragment>
             <Breadcrumb categories={categories} />
