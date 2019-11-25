@@ -44,7 +44,7 @@ app.get('*', function(req, res) {
 
 let port = process.env.PORT || 4000;
 app.listen(port, () =>
-  console.log(`Meli APP is listening on port `,port)
+  console.log(`Server APP is listening on port `,port)
 )
 
 module.exports = app
